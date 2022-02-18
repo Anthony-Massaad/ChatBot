@@ -1,0 +1,48 @@
+{"intents":
+  [
+    {
+      "tag": "greeting",
+      "patterns": ["Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello", "Hey, I'm chatty", "Hi there, What's up?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["No worries!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "greeting2",
+      "patterns": ["Hi", "How are you", "How's it going?"],
+      "responses": ["I'm doing great!"]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["who are you?", "what is your name", "what are you?", "Anyone there?"],
+      "responses": ["I'm Chatty, your all time favorite robot"]
+    },
+    {
+      "tag": "knock-knock-joke",
+      "patterns": ["Can you tell me a joke please?", "Tell me a joke", "Say a joke"],
+      "responses": ["Knock, Knock"],
+      "context_set": "knock_knock_joke"
+    },
+    {
+      "tag": "knock-knock-joke-2",
+      "patterns": ["Who's there?", "Who is there?"],
+      "responses": ["Nobel"],
+      "context_set": "knock_knock_joke_2",
+      "context_response": "knock_knock_joke"
+    },
+    {
+      "tag": "knock-knock-joke-3",
+      "patterns": ["Nobel who?", "who"],
+      "responses": ["Exactly, there is no bell. Hence, the knock"],
+      "context_response": "knock_knock_joke_2"
+    }
+ ]
+}
