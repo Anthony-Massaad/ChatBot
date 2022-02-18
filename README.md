@@ -19,7 +19,7 @@ Given the user input, it will put the imput into a bag-of-words and create an ar
 
 ## How to add more to the bot
 
-Inside the json file, when creating a new intent, the mandatory tags are ```tag, patterns, responses```. Follow the same format to what is already there. 
+Inside the json file, when creating a new intent, the mandatory tags are ```tag, patterns, and responses```. Follow the same format to what is already there. 
 
 For contextual, add the tag ```context_set``` with ```context_response``` in respect to the name of ```context_set```. Follow the knock knock joke tag for an example.
 
