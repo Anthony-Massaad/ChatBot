@@ -1,6 +1,6 @@
 # ChatBot
 
-Chat AI GUI using PySimpleGUI.Using the tensorflow-tflearn model, this is a chatbot framework that takes in a user input and processes a response accordingly and accurately, with the ability to handle contexual responses. 
+Chat AI GUI using PySimpleGUI. Using the tensorflow-tflearn model, this is a chatbot framework that takes in a user input and processes a response accordingly and accurately, with the ability to handle contexual responses. 
 
 <center>
   <h3>Example Image</h3>
